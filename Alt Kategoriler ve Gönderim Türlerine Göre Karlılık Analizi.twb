@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='5704a713d6e9eabe0620fae0874619e8bb0bd94b758347f21151d5bb43df32ea' _.fcp.WorkbookFingerprinting.true...creator-author-id='5704a713d6e9eabe0620fae0874619e8bb0bd94b758347f21151d5bb43df32ea' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='5704a713d6e9eabe0620fae0874619e8bb0bd94b758347f21151d5bb43df32ea' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='5704a713d6e9eabe0620fae0874619e8bb0bd94b758347f21151d5bb43df32ea' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sample - Superstore.xls - Orders' inline='true' name='federated.0reuf091bvc6f410v1fr10r0u692' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Sample - Superstore.xls - Orders' name='textscan.00laqjc074muo81argfbx06d7re2'>
+            <connection class='textscan' directory='C:/Users/Cemre MISIRLIOĞLU/Downloads' filename='Sample - Superstore.xls - Orders.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.00laqjc074muo81argfbx06d7re2' name='Sample - Superstore.xls - Orders.csv' table='[Sample - Superstore.xls - Orders#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=','>
+            <column datatype='integer' name='Row ID' ordinal='0' />
+            <column datatype='string' name='Order ID' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='date' name='Ship Date' ordinal='3' />
+            <column datatype='string' name='Ship Mode' ordinal='4' />
+            <column datatype='string' name='Customer ID' ordinal='5' />
+            <column datatype='string' name='Customer Name' ordinal='6' />
+            <column datatype='string' name='Segment' ordinal='7' />
+            <column datatype='string' name='Country/Region' ordinal='8' />
+            <column datatype='string' name='City' ordinal='9' />
+            <column datatype='string' name='State/Province' ordinal='10' />
+            <column datatype='integer' name='Postal Code' ordinal='11' />
+            <column datatype='string' name='Region' ordinal='12' />
+            <column datatype='string' name='Product ID' ordinal='13' />
+            <column datatype='string' name='Category' ordinal='14' />
+            <column datatype='string' name='Sub-Category' ordinal='15' />
+            <column datatype='string' name='Product Name' ordinal='16' />
+            <column datatype='real' name='Sales' ordinal='17' />
+            <column datatype='integer' name='Quantity' ordinal='18' />
+            <column datatype='real' name='Discount' ordinal='19' />
+            <column datatype='real' name='Profit' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₺&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Row ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row ID]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Row ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Ship Date]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Ship Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Mode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ship Mode]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Ship Mode</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country/Region]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Country/Region</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State/Province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State/Province]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>State/Province</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product Name]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Product Name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[Sample - Superstore.xls - Orders.csv]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Relative Profit %' datatype='real' default-format='p0.00%' name='[Calculation_0890660224040960]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Profit]) / SUM([Sales])' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sample - Superstore.xls - Orders.csv' datatype='table' name='[__tableau_internal_object_id__].[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]' role='measure' type='quantitative' />
+      <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country, Province,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit' />
+      </drill-paths>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/CEMREM~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1cz7lpk1ryvn2m170zq840qiprwm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/14/2026 08:01:41 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Row ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Row ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Row ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10194</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3384</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1478</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ship Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Ship Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ship Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1399</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ship Mode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ship Mode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ship Mode</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer ID</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1175</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Name</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1175</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Segment</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country/Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country/Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country/Region</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>592</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State/Province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State/Province]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State/Province</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Postal Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Postal Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Postal Code</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>690</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product ID</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2138</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-Category</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product Name</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2094</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3286</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Quantity</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Discount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Discount</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sample - Superstore.xls - Orders.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3732</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0reuf091bvc6f410v1fr10r0u692].[sum:Profit:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0reuf091bvc6f410v1fr10r0u692].[sum:Sales:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Sample - Superstore.xls - Orders.csv' id='Sample - Superstore.xls - Orders.csv_C7610CED6B264EEFAFD8BE78A938C7BA'>
+            <properties context=''>
+              <relation connection='textscan.00laqjc074muo81argfbx06d7re2' name='Sample - Superstore.xls - Orders.csv' table='[Sample - Superstore.xls - Orders#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=','>
+                  <column datatype='integer' name='Row ID' ordinal='0' />
+                  <column datatype='string' name='Order ID' ordinal='1' />
+                  <column datatype='date' name='Order Date' ordinal='2' />
+                  <column datatype='date' name='Ship Date' ordinal='3' />
+                  <column datatype='string' name='Ship Mode' ordinal='4' />
+                  <column datatype='string' name='Customer ID' ordinal='5' />
+                  <column datatype='string' name='Customer Name' ordinal='6' />
+                  <column datatype='string' name='Segment' ordinal='7' />
+                  <column datatype='string' name='Country/Region' ordinal='8' />
+                  <column datatype='string' name='City' ordinal='9' />
+                  <column datatype='string' name='State/Province' ordinal='10' />
+                  <column datatype='integer' name='Postal Code' ordinal='11' />
+                  <column datatype='string' name='Region' ordinal='12' />
+                  <column datatype='string' name='Product ID' ordinal='13' />
+                  <column datatype='string' name='Category' ordinal='14' />
+                  <column datatype='string' name='Sub-Category' ordinal='15' />
+                  <column datatype='string' name='Product Name' ordinal='16' />
+                  <column datatype='real' name='Sales' ordinal='17' />
+                  <column datatype='integer' name='Quantity' ordinal='18' />
+                  <column datatype='real' name='Discount' ordinal='19' />
+                  <column datatype='real' name='Profit' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Alt Kategoriler ve Gönderim Türlerine Göre Kârlılık Analizi'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sample - Superstore.xls - Orders' name='federated.0reuf091bvc6f410v1fr10r0u692' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0reuf091bvc6f410v1fr10r0u692'>
+            <column caption='Relative Profit %' datatype='real' default-format='p0.00%' name='[Calculation_0890660224040960]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Profit]) / SUM([Sales])' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Ship Mode]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sub-Category]' role='dimension' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ship Mode]' derivation='None' name='[none:Ship Mode:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sub-Category]' derivation='None' name='[none:Sub-Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0890660224040960]' derivation='User' name='[usr:Calculation_0890660224040960:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0reuf091bvc6f410v1fr10r0u692].[none:Ship Mode:nk]' value='152' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.0' field='[federated.0reuf091bvc6f410v1fr10r0u692].[usr:Calculation_0890660224040960:qk]' include-totals='true' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0reuf091bvc6f410v1fr10r0u692].[usr:Calculation_0890660224040960:qk]' />
+              <text column='[federated.0reuf091bvc6f410v1fr10r0u692].[usr:Calculation_0890660224040960:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Ship Mode:nk]</rows>
+        <cols total='true'>([federated.0reuf091bvc6f410v1fr10r0u692].[none:Category:nk] / [federated.0reuf091bvc6f410v1fr10r0u692].[none:Sub-Category:nk])</cols>
+        <subtotals>
+          <column>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Category:nk]</column>
+          <column>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Ship Mode:nk]</column>
+        </subtotals>
+      </table>
+      <simple-id uuid='{7AD6B03F-AF66-431A-97FA-94752FCAE227}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Alt Kategoriler ve Gönderim Türlerine Göre Kârlılık Analizi'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0reuf091bvc6f410v1fr10r0u692].[usr:Calculation_0890660224040960:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Category:nk]</field>
+            <field>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Ship Mode:nk]</field>
+            <field>[federated.0reuf091bvc6f410v1fr10r0u692].[none:Sub-Category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{04DAD44D-A1DE-48D4-9E02-CAF124EFA54D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='169' name='Alt Kategoriler ve Gönderim Türlerine Göre Kârlılık Analizi' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
